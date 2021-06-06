@@ -24,7 +24,6 @@ class SlingShot{
             strokeWeight(2);
             line(pointA.x, pointA.y, pointB.x, pointB.y);
             pop()
-            text(mouseX + ", " + mouseY, mouseX, mouseY)
         }
     }
 
